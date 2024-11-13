@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,30 +40,58 @@
             <div class="Rectangle5177"></div>
         </div>
 
-
-
-
-
-
-
-
-
-        <!-- <div class="ButtonNextSlider">
-            <div class="Ellipse2">
-                <div class="Ellipse1"></div>
-                <div class="Group2">
-                    <div class="Line2"></div>
-                    <div class="Line3"></div>
-                </div>
-            </div>
-        </div> -->
-        
-    </div> 
+    </div>
 </main>
-<!-- <div id="modal" class="pop-up-modal">
-    <h2>Login gagal!</h2>
-    <p>Silakan coba lagi</p>
-</div> -->
+
+<script src="assets/scripts/_init.js"></script>
+<script src="assets/scripts/login-script.js"></script>
+</body>
+</html> --}}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+    <title>Login Apps</title>
+</head>
+<body>
+<main>
+    <div class="Login">
+        <!-- Logo -->
+        <img class="logo" src="https://img.freepik.com/free-vector/diabetes-composition-with-icons-blood-glucose-monitor-insulin-pills-with-apple-doodle-human-characters-vector-illustration_1284-83910.jpg?w=900&t=st=1696813154~exp=1696813754~hmac=cf2053eb5c716217e2e5ae1d7d807b4b19c2c90d5e270616ffb317a3c3f1d33d" alt="Image">
+
+        <!-- Formulir login -->
+        <div class="login-input">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <div class="RememberMe">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe">Remember Me</label>
+            </div>
+
+            <div class="ForgotPassword">
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit">Submit</button>
+        </div>
+
+        <!-- Create Account -->
+        <div class="CreateAccount">
+            <div>Don't have any account? <a href="#">Create</a></div>
+        </div>
+    </div>
+</main>
 
 <script src="assets/scripts/_init.js"></script>
 <script src="assets/scripts/login-script.js"></script>

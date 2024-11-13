@@ -167,7 +167,7 @@
                      <h1 class="display-5 mb-0">Tingkatkan Pemahaman Anda tentang Diabetes dengan Membaca Artikel Kami</h1>
                  </div>
                  <p class="mb-4">Pilih salah satu artikel dengan klik "Baca Selengkapnya" Coba sekarang juga! Dapatkan fakta menarik lainnya</p>
-             
+
              </div>
              <div class="col-lg-7">
                  <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">

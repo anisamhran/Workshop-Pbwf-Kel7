@@ -1,16 +1,29 @@
 @extends('layout.main')
 @section('content')
+ <!-- Hero Start -->
+ <div class="container-fluid bg-primary py-5 hero-header mb-5">
+    <div class="row py-3">
+        <div class="col-12 text-center">
+            <h1 class="display-3 text-white animated zoomIn">Appointment</h1>
+            <a href="/" class="h4 text-white">Home</a>
+            <i class="far fa-circle text-white px-2"></i>
+            <a href="" class="h4 text-white">Appointment</a>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+
 
     <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid my-5 wow fadeInUp mb-5" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 py-5">
+                <div class="col-lg-6 py-5 mb-5">
                     <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">Mudahkan Perawatan Kesehatan Anda: Percayakan pada Perawat kami sekarang!</h1>
+                        <h1 class="display-5 text-black mb-4">Mudahkan Perawatan Kesehatan Anda: Percayakan pada kami sekarang!</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-5">
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Yuk! Isi Dulu</h1>
                         <form>

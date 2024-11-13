@@ -1,254 +1,19 @@
-/* * {
-    padding: 0;
+/* CSS untuk keseluruhan layout */
+body, html {
+    height: 100%;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    justify-content: center;
-
-}
-
-body {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #F3F4F6;
-    margin-left: 90px;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    background-color: #f0f0f0; /* Warna latar belakang */
 }
 
 main {
-    width: 100%;
-    max-width: 800px;
-    padding: 32px;
+    display: flex;
+    justify-content: center; /* Pusatkan form secara horizontal */
+    align-items: center; /* Pusatkan form secara vertikal */
+    min-height: 100vh; /* Pastikan tinggi minimal adalah tinggi layar penuh */
 }
-
-.Login {
-    width: 531px;
-    height: 570px;
-    position: relative;
-}
-
-.Bg {
-    width: 531px;
-    height: 532px;
-    left: 0px;
-    top: 1px;
-    position: absolute;
-    background: white;
-    border-radius: 30px;
-}
-.ImageHeader {
-    width: 531px;
-    height: 170px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border-radius: 15px;
-}
-.LoginText {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 170px;
-    position: absolute;
-    color: #540006;
-    font-size: 25px;
-    font-family: Poppins;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-.Email {
-    width: 421px;
-    height: 60px;
-    left: 55px;
-    top: 215px;
-    position: absolute;
-}
-
-.EmailLabel {
-    width: 74px;
-    left: 2px;
-    top: 0px;
-    position: absolute;
-    color: #540006 ;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-
-.Rectangle11 {
-    width: 421px;
-    height: 35px;
-    left: 0px;
-    top: 25px;
-    position: absolute;
-    border-radius: 30px;
-    border: 1px #540006 solid;
-}
-
-.Pw {
-    width: 421px;
-    height: 85px;
-    left: 55px;
-    top: 290px;
-    position: absolute;
-}
-
-.Rectangle5176 {
-    width: 421px;
-    height: 35px;
-    left: 0px;
-    top: 21px;
-    position: absolute;
-    border-radius: 30px;
-    border: 1px #540006 solid;
-}
-
-.Vector {
-    width: 22px;
-    height: 12px;
-    left: 386px;
-    top: 33px;
-    position: absolute;
-}
-
-.PasswordLabel {
-    width: 115px;
-    left: 2px;
-    top: 0px;
-    position: absolute;
-    color: #540006;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-
-.RememberMe {
-    width: 149px;
-    height: 21px;
-    left: 9px;
-    top: 64px;
-    position: absolute;
-}
-
-.RememberMeLabel {
-    width: 131px;
-    left: 18px;
-    top: 0px;
-    position: absolute;
-    color: #8C8C8C;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-
-.Rectangle5175 {
-    width: 11px;
-    height: 11px;
-    left: 0px;
-    top: 4px;
-    position: absolute;
-    border-radius: 30px;
-    border: 1px #8C8C8C solid;
-}
-
-.ForgotPassword {
-    left: 293px;
-    top: 64px;
-    position: absolute;
-    color: #8C8C8C;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 400;
-    word-wrap: break-word
-}
-
-.ButtonSubmitLogReg{
-    width: 86px;
-    height: 33px;
-    position: relative;
-    justify-content: center;
-    left: 35%;
-    transform: translateX(-50%);
-    top: -160px;
-}
-
-.Submit{
-    left: 17px;
-    top: 7px;
-    position: absolute;
-    text-align: center;
-    color: #540006;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 600;
-    word-wrap: break-word
-}
-
-.Rectangle5177{
-    width: 86px;
-    height: 33px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border-radius: 30px;
-    border: 1px #540006 solid;
-}
-
-.CreateAccount {
-    left: 150px;
-    top: 457px;
-    position: absolute;
-}
-
-.Create {
-    width: 51px;
-    height: 33px;
-    padding-bottom: 12px;
-    padding-right: 3px;
-    left: 180px;
-    top: 0px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #0400BD;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 300;
-    text-decoration: underline;
-    word-wrap: break-word
-}
-
-.DonTHaveAnyAccount {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    color: #540006;
-    font-size: 14px;
-    font-family: Poppins;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-
-.ButtonNextSlider {
-    width: 36px;
-    height: 36px;
-    left: 46px;
-    top: 51px;
-    position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-    justify-content: center;
-    align-items: center;
-    display: flex
-    ;
-} */
 
 /* CSS untuk form */
 .login-input {
@@ -258,24 +23,25 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk estetika */
+}
 
-  .login-input label,
-  .login-input input {
+.login-input label,
+.login-input input {
     display: block;
     margin-bottom: 10px;
-  }
+}
 
-  .login-input input[type="text"],
-  .login-input input[type="email"],
-  .login-input input[type="password"] {
+.login-input input[type="text"],
+.login-input input[type="email"],
+.login-input input[type="password"] {
     width: calc(100% - 22px);
     padding: 8px;
     border-radius: 3px;
     border: 1px solid #ccc;
-  }
+}
 
-  .login-input button {
+.login-input button {
     width: 100%;
     padding: 10px;
     border: none;
@@ -283,10 +49,13 @@ main {
     background-color: #7D1219;
     color: white;
     cursor: pointer;
-  }
+}
 
-  /* CSS untuk logo */
-  .logo {
+/* CSS untuk logo */
+.logo {
     max-width: 100px;
     margin-bottom: 20px;
-  }
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Pusatkan logo secara horizontal */
+}

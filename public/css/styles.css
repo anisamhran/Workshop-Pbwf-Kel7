@@ -11241,3 +11241,83 @@ body {
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
 }
+
+/* Pastikan body dan html mengambil 100% dari tinggi layar */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Kontainer utama untuk login */
+.login-container {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    min-height: 100vh; /* Mengisi seluruh tinggi viewport */
+    background-image: url('/path/to/your/background-image.jpg'); /* Ganti dengan path gambar latar */
+    background-size: cover; /* Gambar menutupi seluruh area */
+    background-position: center; /* Gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah gambar berulang */
+}
+
+/* Styling untuk form login */
+.login-input {
+    background-color: rgba(255, 255, 255, 0.9); /* Warna semi-transparan */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-input h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-input button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7D1219;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-input button:hover {
+    background-color: #6a1016;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Minimum height to cover full screen */
+    width: 100%;
+}

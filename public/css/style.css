@@ -499,3 +499,48 @@ h6,
 .custom-card .card-body {
     padding: 10px; /* Atur padding untuk konten dalam card */
 }
+
+/* Styling form login */
+.login-input {
+    background-color: rgba(35, 122, 54, 0.9); /* Background semi-transparan untuk form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-input h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-input button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7D1219;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-input button:hover {
+    background-color: #6a1016; /* Warna sedikit lebih gelap saat hover */
+}
+

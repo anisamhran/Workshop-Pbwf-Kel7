@@ -39,8 +39,8 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tenaga Medis</a>
                 <div class="dropdown-menu m-0">
-                    <a href="doctors" class="dropdown-item">Dokter</a>
-                    <a href="nurses" class="dropdown-item">Perawat</a>
+                    <a href="{{ route('doctor.view') }}" class="dropdown-item">Dokter</a>
+                    <a href="{{ route('nurse.view') }}" class="dropdown-item">Perawat</a>
                 </div>
             </div>
             <a href="contact" class="nav-item nav-link">Contact</a>

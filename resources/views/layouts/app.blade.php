@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container"sty>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif --}}
-                        @else
+                        {{-- @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
@@ -70,11 +70,15 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
 
-        <main class="py-4">
-            @yield('content')
+        <main style="display: flex; justify-content: center; align-items: center; min-height: 100vh; width: 100%; padding: 20px; background-color: #b6d4fe;">
+            <div style="width: 100%; max-width: 500px;"> <!-- Atur lebar maksimal di sini -->
+                @yield('content')
+            </div>
         </main>
+
+
     </div>
     {{-- Script --}}
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
@@ -84,3 +88,4 @@
 
 </body>
 </html>
+

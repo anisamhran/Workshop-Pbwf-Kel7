@@ -96,8 +96,8 @@ Route::get('nurse', function () {
 });
 
 // INDAH//
-Route::get('doctor', [TenagaMedisController::class, 'showDokter'])->name('doctor');
-Route::get('nurse', [TenagaMedisController::class, 'showPerawat'])->name('nurse');
+Route::get('doctor', [TenagaMedisController::class, 'showDokter'])->name('doctor.view');
+Route::get('nurse', [TenagaMedisController::class, 'showPerawat'])->name('nurse.view');
 
 
 
